@@ -1,0 +1,173 @@
+.body{
+  width: 100%;
+  height: 100vh;
+}
+.baloo-2{
+    font-family: "Baloo 2", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #004643;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    position: relative;
+}
+span:nth-child(1){
+font-size: 36px;
+color: #004643;
+font-weight: 500;
+
+}
+span:nth-child(2){
+    font-size: 24px;
+    color: #F8C660;
+    font-weight: 400;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+.form{
+    width: 35%;
+    height: 65vh;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+    /* background-color: aqua; */
+}
+
+.form> p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #EEEFF2;
+    
+}
+.form >input{
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    border: 2px solid #F8C660;
+    font-size: 17px;
+    color: black;
+    background-color: transparent;
+}
+.form>.submit{
+    background-color: #F8C660;
+    font-size: 24px;
+    font-weight: 500;
+    color: #EEEFF2;
+}
+.form>.submit:hover{
+    background-color: #d49e31;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0ebeb;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.main>h4{
+    font-size: 18px;
+}
+.main>.qustion{
+   width: 31%;
+   height: 150px;
+   background-color: #FFFFFF; 
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   align-items: center;
+   text-align: left;
+   position: relative;
+   padding: 2%;
+   border-radius: 25px;
+   
+}
+.main>.qustion>p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.main>.qustion>.time{
+    width: 80px;
+    height: 80px;
+    background-color: #004643;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 23px;
+    font-weight: 600;
+    position: absolute;
+    top: -40px;
+    
+}
+.main>.qustion>.time>span{
+    background-color: #EEEFF2;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main>.test{
+    width: 40%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.main>.test>.btn{
+    width: 90%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: #FFFFFF;
+}
+.main>.next{
+    background-color: #004643;
+    font-size: 23px;
+    font-weight: 600;
+    color: #EEEFF2;
+    width: 35%;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+}
+.hidden{
+    overflow: hidden;
+
+}
+
